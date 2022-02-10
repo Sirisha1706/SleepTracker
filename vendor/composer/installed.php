@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '477f7e9d06245dc671b7a33946575c240e11dcdb',
+        'reference' => 'b09f378afded4f69ac9f3c847b7a7d0bec5bfea0',
         'name' => 'sadhusirisha/project',
         'dev' => true,
     ),
@@ -118,7 +118,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '477f7e9d06245dc671b7a33946575c240e11dcdb',
+            'reference' => 'b09f378afded4f69ac9f3c847b7a7d0bec5bfea0',
             'dev_requirement' => false,
         ),
         'symfony/apache-pack' => array(
