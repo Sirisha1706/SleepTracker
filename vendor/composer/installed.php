@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '731d2b821cedd5a29bb2d7304c8a89ba0b030fea',
+        'reference' => 'd56c09499bac426ba664b0327b5821adef91ed9b',
         'name' => 'sadhusirisha/project',
         'dev' => true,
     ),
@@ -154,7 +154,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '731d2b821cedd5a29bb2d7304c8a89ba0b030fea',
+            'reference' => 'd56c09499bac426ba664b0327b5821adef91ed9b',
             'dev_requirement' => false,
         ),
         'symfony/console' => array(
