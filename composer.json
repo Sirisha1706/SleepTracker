@@ -10,6 +10,7 @@
         "illuminate/database": "^9.0",
         "twbs/bootstrap": "^5.1",
         "components/font-awesome": "^5.15",
-        "illuminate/session": "^9.0"
+        "illuminate/session": "^9.0",
+        "querypath/querypath": "^3.0"
     }
 }
