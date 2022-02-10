@@ -444,7 +444,7 @@ class Stringable implements JsonSerializable
      */
     public function pipe(callable $callback)
     {
-        return new static(call_user_func($callback, $this));
+        return new static($callback($this));
     }
 
     /**
@@ -510,7 +510,7 @@ class Stringable implements JsonSerializable
      */
     public function repeat(int $times)
     {
-        return new static(Str::repeat($this->value, $times));
+        return new static(str_repeat($this->value, $times));
     }
 
     /**
@@ -522,7 +522,7 @@ class Stringable implements JsonSerializable
      */
     public function replace($search, $replace)
     {
-        return new static(Str::replace($search, $replace, $this->value));
+        return new static(str_replace($search, $replace, $this->value));
     }
 
     /**
@@ -726,11 +726,22 @@ class Stringable implements JsonSerializable
      * @param  string|array  $replace
      * @param  array|int  $offset
      * @param  array|int|null  $length
-     * @return string|array
+     * @return static
      */
     public function substrReplace($replace, $offset = 0, $length = null)
     {
         return new static(Str::substrReplace($this->value, $replace, $offset, $length));
+    }
+
+    /**
+     * Swap multiple keywords in a string with other keywords.
+     *
+     * @param  array  $map
+     * @return static
+     */
+    public function swap(array $map)
+    {
+        return new static(strtr($this->value, $map));
     }
 
     /**
@@ -982,12 +993,31 @@ class Stringable implements JsonSerializable
     }
 
     /**
+     * Get the underlying string value.
+     *
+     * @return string
+     */
+    public function value()
+    {
+        return $this->toString();
+    }
+
+    /**
+     * Get the underlying string value.
+     *
+     * @return string
+     */
+    public function toString()
+    {
+        return $this->value;
+    }
+
+    /**
      * Convert the object to a string when JSON encoded.
      *
      * @return string
      */
-    #[\ReturnTypeWillChange]
-    public function jsonSerialize()
+    public function jsonSerialize(): string
     {
         return $this->__toString();
     }
