@@ -8,10 +8,9 @@ include('includes/dbconnection.php');
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
                     <span class="icon-bar"></span></button>
-                <a class="navbar-brand" href="dashboard.php"><span>Daily Sleep Tracker<span>&#128221;</span></span></a>
+                <a class="navbar-brand" href="dashboard.php">
+                    <span>Daily Sleep Tracker<span>&#128221;</span></span></a>
                 
             </div>
             
