@@ -1,0 +1,2 @@
+
+web:node vender/bin/heroku-php-apache2;

@@ -1,0 +1,15 @@
+{
+    "name": "sadhusirisha/project",
+    "authors": [
+        {
+            "name": "'SadhuSirisha'",
+            "email": "'sirishasundharisadhu@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^5.1",
+        "symfony/apache-pack": "^1.0",
+        "symfony/asset": "^6.0",
+        "illuminate/database": "^8.82"
+    }
+}
