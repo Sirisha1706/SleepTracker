@@ -76,8 +76,13 @@
                      </p>
 
                   </div>
-                  <a href="login.php"><button align="center" class="btn btn-outline-dark btn-lg" type="button"><span>Login/Register</span></button></a>
+                  <a href="login.php"><button align="center" class="btn btn-outline-dark btn-lg" name="login" type="button"><span>Login/Register</span></button></a>
                </div>
+               <?php
+               if( isset('login')){
+                  header('location:login.php');
+               }
+               ?>
                
             </div>
          </div>
