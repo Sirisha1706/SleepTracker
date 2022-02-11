@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '09b6db9075cabab4c12e4166a8cd8199eca8b859',
+        'reference' => '075d0c64ed0535b09fb72c5c661aa2af18aaa4af',
         'name' => 'sadhusirisha/project',
         'dev' => true,
     ),
@@ -490,7 +490,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '09b6db9075cabab4c12e4166a8cd8199eca8b859',
+            'reference' => '075d0c64ed0535b09fb72c5c661aa2af18aaa4af',
             'dev_requirement' => false,
         ),
         'sebastian/cli-parser' => array(
