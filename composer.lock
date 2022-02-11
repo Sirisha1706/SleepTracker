@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5abb4b05fd0271a41d2c00dbb6245b72",
+    "content-hash": "2a55ef46cdefce23d83c3c1599e8c5c2",
     "packages": [
         {
             "name": "beberlei/doctrineextensions",
@@ -604,6 +604,46 @@
                 }
             ],
             "time": "2022-01-04T17:06:45+00:00"
+        },
+        {
+            "name": "delight-im/http",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/delight-im/PHP-HTTP.git",
+                "reference": "a5c2c4eae1dd3207f797984e8f64f2d71ed889dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/delight-im/PHP-HTTP/zipball/a5c2c4eae1dd3207f797984e8f64f2d71ed889dd",
+                "reference": "a5c2c4eae1dd3207f797984e8f64f2d71ed889dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Delight\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Hypertext Transfer Protocol (HTTP) utilities for PHP",
+            "homepage": "https://github.com/delight-im/PHP-HTTP",
+            "keywords": [
+                "headers",
+                "http",
+                "https"
+            ],
+            "support": {
+                "issues": "https://github.com/delight-im/PHP-HTTP/issues",
+                "source": "https://github.com/delight-im/PHP-HTTP/tree/v2.1.0"
+            },
+            "time": "2021-10-12T18:52:29+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -2236,6 +2276,50 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.13.2"
             },
             "time": "2021-11-30T19:35:32+00:00"
+        },
+        {
+            "name": "paragonie/cookie",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/PHP-Cookie.git",
+                "reference": "a746f4096885b6715a640a2122b1c21324624f8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/PHP-Cookie/zipball/a746f4096885b6715a640a2122b1c21324624f8f",
+                "reference": "a746f4096885b6715a640a2122b1c21324624f8f",
+                "shasum": ""
+            },
+            "require": {
+                "delight-im/http": "^2.0",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Delight\\Cookie\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Modern cookie management for PHP",
+            "homepage": "https://github.com/delight-im/PHP-Cookie",
+            "keywords": [
+                "cookie",
+                "cookies",
+                "csrf",
+                "http",
+                "same-site",
+                "samesite",
+                "xss"
+            ],
+            "support": {
+                "source": "https://github.com/paragonie/PHP-Cookie/tree/v2.0.0"
+            },
+            "time": "2016-07-21T15:20:20+00:00"
         },
         {
             "name": "phar-io/manifest",
