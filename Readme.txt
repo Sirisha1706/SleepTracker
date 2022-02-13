@@ -1,3 +1,7 @@
+A project based on php connecting to mysql fullstack development
+
+
+
 How to run the Daily Sleep Tracking  Project
 1. copy the  dets folder
 2.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
