@@ -76,7 +76,7 @@
                      </p>
 
                   </div>
-                  <a href="login.php"><button align="center" class="btn btn-outline-dark btn-lg" name="submit type="button"><span>Login/Register</span></button></a>
+                  <a href="login.php"><button align="center" class="btn btn-outline-dark btn-lg" name="submit" type="button"><span>Login/Register</span></button></a>
                </div>
                
             </div>
