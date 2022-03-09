@@ -76,7 +76,13 @@
                      </p>
 
                   </div>
-                  <a href="login.php"><button align="center" class="btn btn-outline-dark btn-lg" name="submit" type="button"><span>Login/Register</span></button></a>
+                  <button align="center" class="btn btn-outline-dark btn-lg" name="submit" type="button">
+                  <?php
+                  $target = 'login.php';
+                  $name = 'Login/Register';
+                  link($target,$name);
+                  ?>
+                  </button>
                </div>
                
             </div>
