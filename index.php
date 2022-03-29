@@ -76,9 +76,9 @@
                      </p>
 
                   </div>
-                  <form method="POST" action="login.php">
+                  <a href='login.php'>
                      <button align="center" class="btn btn-outline-dark btn-lg" name="submit" type="button"><span>Login/Register</span></button>
-                  </form>
+                  </a>
                </div>
                
             </div>
